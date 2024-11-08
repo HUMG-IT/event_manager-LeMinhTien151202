@@ -100,7 +100,7 @@ class EventModel {
 
 extension ExEvenntModel on EventModel {
   String get formatedStartTimeString => 
-  '${startTime.hour}:${startTime.minute},${startTime.day}/${startTime.month}/${startTime.year}';
+  '${startTime.hour}:${startTime.minute}, ${startTime.day}/${startTime.month}/${startTime.year}';
    String get formatedEndTimeString => 
-   '${endTime.hour}:${endTime.minute},${endTime.day}/${endTime.month}/${endTime.year}';
+   '${endTime.hour}:${endTime.minute}, ${endTime.day}/${endTime.month}/${endTime.year}';
   }

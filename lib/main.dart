@@ -22,7 +22,7 @@ class MainApp extends StatelessWidget {
         Locale('en'),
         Locale('vi')
       ],
-      locale: Locale('en'),
+      locale: Locale('vi'),
       home: EventView(),
     );
   }
