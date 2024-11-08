@@ -1,5 +1,5 @@
 {
-    "addEvent" : "Add Event",
     "appTitle" : "Event Manager",
+    "addEvent" : "Add Event",
     "eventDetails" : "Event details"
 }

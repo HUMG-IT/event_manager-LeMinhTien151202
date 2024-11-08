@@ -34,7 +34,7 @@ class EventModel {
       endTime: endTime ?? this.endTime,
       isAllDay: isAllDay ?? this.isAllDay,
       subject: subject ?? this.subject,
-      notes: note ?? this.notes,
+      notes: note ?? notes,
       recurrenceRule: recurrenceRule ?? this.recurrenceRule,
     );
   }
